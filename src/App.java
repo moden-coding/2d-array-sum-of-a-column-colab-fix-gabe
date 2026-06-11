@@ -10,7 +10,15 @@ public class App {
 	}
 	public static int sumColumn(int[][] array, int column)
 	{
-		return -1; //placeholder
+		  int sum = 0;
+
+    for (int i = 0; i < array.length; i++) {
+        sum += array[i][column];
+    }
+
+    return sum;
+}
+		
 	}
 	
-}
+
